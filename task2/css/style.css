@@ -1,0 +1,86 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+
+  background: linear-gradient(to right, #b57be8, #6c63ff);
+}
+
+.container {
+  padding-block: 40px;
+  width: 80%;
+  margin: auto;
+}
+
+.box {
+  display: inline-block;
+  vertical-align: top;
+}
+
+aside {
+  background-color: #00bcd4;
+  text-align: center;
+  color: #fff;
+  width: 50%;
+  height: 90vh;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-block: 100px;
+}
+
+aside h1 {
+  font-size: 70px;
+  font-weight: bolder;
+}
+aside p {
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.8);
+}
+main {
+  height: 90vh;
+  text-align: center;
+  width: 50%;
+  background-color: #fff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+main h1 {
+  font-size: 70px;
+  font-weight: bolder;
+}
+form {
+  font-size: 20px;
+}
+form .required {
+  text-align: start;
+  padding-left: 10%;
+}
+form input {
+  padding: 2%;
+  margin: 2%;
+  border: 0;
+  background-color: rgb(211, 211, 211, 0.4);
+  width: 80%;
+}
+form textarea {
+  width: 80%;
+  height: 100px;
+  padding: 10px;
+  border: 0;
+  background-color: rgb(211, 211, 211, 0.4);
+  min-width: 80%;
+  max-width: 80%;
+
+  max-height: 100px;
+}
+form button {
+  background-color: #00bcd4;
+  color: rgba(255, 255, 255, 0.8);
+  border: 0;
+  padding: 14px 60px;
+  border-radius: 20px;
+}
