@@ -1,0 +1,168 @@
+/* Reset style */
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+ul {
+    list-style:none;
+}
+img {
+    width:100%;
+}
+a {
+    text-decoration:none;
+    color:inherit;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight:600;
+}
+h2 {
+    font-size: 50.52px;
+}
+/* Global style */
+.d-flex {
+    display:flex;
+}
+.flex-wrap {
+    flex-wrap:wrap;
+}
+.flex-column {
+    flex-direction:column;
+}
+.gap-5 {
+    gap:50px;
+}
+.justify-content-center {
+    justify-content:center;
+}
+.justify-content-between {
+    justify-content:space-between;
+}
+.justify-content-around {
+    justify-content:space-around;
+}
+.align-items-center {
+    align-items:center;
+}
+.w-100 {
+    width:100%;
+}
+.w-45 {
+    width:45%;
+}
+.container {
+    width:95%;
+    margin:auto;
+}
+.text-main {
+    color:#2B2B2B;
+}
+.bg-main {
+    background-color: #285E67;
+}
+.text-white {
+    color:#fff;
+}
+.text-center {
+    text-align:center;
+}
+.bg-muted {
+    background-color: #F4F4F4;
+}
+.btn {
+    padding: 28px 125px ;
+    border-top-left-radius:67px;
+    border-top-right-radius:67px;
+    border-bottom-left-radius:67px;
+    border-bottom-right-radius:67px;
+}
+.w-50 {
+    width:50%;
+}
+.w-70 {
+    width:50%;
+}
+/* Custom style */
+nav {
+    padding-top:32px;
+}
+nav img ,footer img {
+    width:91px;
+}
+.gap-4 {
+    gap:40px;
+}
+header .image {
+    margin-bottom:107px;
+}
+header main {
+    margin:144px 0 104px 0;
+}
+header main h1 {
+    margin-bottom:17px;
+}
+header main p {
+    margin-bottom:33px;
+}
+header main a.btn {
+    font-size:21.33px;
+}
+header .image {
+    gap:48px;
+}
+header .image img {
+    width:626px;
+    border-radius:16px;
+}
+.content img {
+    width:58px;
+}
+.about h2 {
+    margin-bottom:61px;
+}
+.about .about-section-1 {
+    padding-block:51.73px;
+}
+.about-section-1 .w-50 img {
+    margin-bottom:20px;
+}
+.about .details {
+    width:291px;
+}
+.team {
+    gap:53px;
+    padding-block:104px;
+}
+.team main {
+    width:623.5px;
+}
+.team-list-image {
+    width:52px;
+    height:52px;
+    border-radius:50%;
+    border:2px solid #285E67;
+}
+.team-list img {
+    width:27.27px;
+}
+.gap-23 {
+    gap:23px;
+}
+.describe p {
+    margin-top:20px;
+    margin-bottom: 50px;
+}
+.items p {
+    padding-top:25px;
+}
+footer {
+    padding:78px 69px;
+}
+footer .icons {
+    margin-top:36px;
+}
+footer .icons img {
+    width:22px;
+}
